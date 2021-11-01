@@ -20,7 +20,7 @@ public class App {
         cliente.setCompraSeguro(seguro2);
 
         cliente.getListaSeguroCliente();
-
+        //Changes
     }
 
 }

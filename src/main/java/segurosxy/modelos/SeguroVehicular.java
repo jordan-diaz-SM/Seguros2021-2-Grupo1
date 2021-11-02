@@ -1,6 +1,8 @@
 package segurosxy.modelos;
 
-public class SeguroVehicular extends Seguro {
+import segurosxy.modelos.interfacesSeguroVehicular.ISeguroVehicular;
+
+public class SeguroVehicular extends Seguro implements ISeguroVehicular{
 
 
     public SeguroVehicular(String marca, String modelo)    {

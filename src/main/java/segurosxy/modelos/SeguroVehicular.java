@@ -1,9 +1,10 @@
 package segurosxy.modelos;
 
-import segurosxy.modelos.interfacesSeguroVehicular.ISeguroVehicular;
 
-public class SeguroVehicular extends Seguro implements ISeguroVehicular{
+public class SeguroVehicular extends Seguro {
 
+    protected String marca;
+    protected String modelo;
 
     public SeguroVehicular(String marca, String modelo)    {
 
@@ -27,5 +28,7 @@ public class SeguroVehicular extends Seguro implements ISeguroVehicular{
     public String getDetalleSeguro()    {
 
         return "Seg. Vehicular Numero: " + this.numero + " con riesgo: " + this.nivelRiesgo;
-    }
+    } 
+
+  
 }

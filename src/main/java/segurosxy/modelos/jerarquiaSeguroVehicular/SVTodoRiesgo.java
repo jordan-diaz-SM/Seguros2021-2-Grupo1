@@ -1,9 +1,9 @@
 package segurosxy.modelos.jerarquiaSeguroVehicular;
 
-import segurosxy.modelos.interfacesSeguroVehicular.ISVTodoRiesgo;
 import segurosxy.modelos.SeguroVehicular;
+import segurosxy.modelos.interfacesSeguroVehicular.ISVTodoRiesgo;
 
-public class SVTodoRiesgo extends SeguroVehicular implements ISVTodoRiesgo {
+public class SVTodoRiesgo extends SeguroVehicular implements ISVTodoRiesgo{
     
     public SVTodoRiesgo(String marca, String modelo)    {
 
@@ -26,5 +26,10 @@ public class SVTodoRiesgo extends SeguroVehicular implements ISVTodoRiesgo {
     public String getDetalleSeguro()    {
 
         return "Seg. Vehicular Numero: " + this.numero + " con riesgo: " + this.nivelRiesgo;
+    }
+
+    public String metodoSVTodoRiesgo()    {
+
+        return "Seg. Vehicular tipo TodoRiesgo";
     }
 }

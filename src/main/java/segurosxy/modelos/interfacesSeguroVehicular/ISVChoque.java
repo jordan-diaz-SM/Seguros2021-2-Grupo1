@@ -1,5 +1,7 @@
 package segurosxy.modelos.interfacesSeguroVehicular;
 
-public interface ISVChoque extends ISeguroVehicular{
-    
+public interface ISVChoque {
+
+    public String metodoSVChoque();
+
 }

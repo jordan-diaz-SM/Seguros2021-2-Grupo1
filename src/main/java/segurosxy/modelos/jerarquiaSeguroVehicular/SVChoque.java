@@ -1,7 +1,7 @@
 package segurosxy.modelos.jerarquiaSeguroVehicular;
 
-import segurosxy.modelos.interfacesSeguroVehicular.ISVChoque;
 import segurosxy.modelos.SeguroVehicular;
+import segurosxy.modelos.interfacesSeguroVehicular.ISVChoque;
 
 public class SVChoque extends SeguroVehicular implements ISVChoque{
 
@@ -25,6 +25,11 @@ public class SVChoque extends SeguroVehicular implements ISVChoque{
     @Override
     public String getDetalleSeguro()    {
 
-        return "Seg. Vehicular Numero: " + this.numero + " con riesgo: " + this.nivelRiesgo;
+        return "Seg. Vehicular tipo Choque Numero: " + this.numero + " con riesgo: " + this.nivelRiesgo;
+    }
+
+    public String metodoSVChoque()    {
+
+        return "Seg. Vehicular tipo Choque";
     }
 }

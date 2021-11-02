@@ -1,7 +1,7 @@
 package segurosxy.modelos.jerarquiaSeguroVehicular;
 
-import segurosxy.modelos.interfacesSeguroVehicular.ISVRobo;
 import segurosxy.modelos.SeguroVehicular;
+import segurosxy.modelos.interfacesSeguroVehicular.ISVRobo;
 
 public class SVRobo extends SeguroVehicular implements ISVRobo{
 
@@ -26,5 +26,10 @@ public class SVRobo extends SeguroVehicular implements ISVRobo{
     public String getDetalleSeguro()    {
 
         return "Seg. Vehicular Numero: " + this.numero + " con riesgo: " + this.nivelRiesgo;
+    }
+
+    public String metodoSVRobo()    {
+
+        return "Seg. Vehicular tipo Robo";
     }
 }

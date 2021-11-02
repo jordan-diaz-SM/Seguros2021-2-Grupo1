@@ -1,5 +1,7 @@
 package segurosxy.modelos.interfacesSeguroVehicular;
 
-public interface ISVRobo extends ISeguroVehicular{
+public interface ISVRobo {
+
+    public String metodoSVRobo();
     
 }

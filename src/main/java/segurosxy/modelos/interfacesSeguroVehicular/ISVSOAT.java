@@ -1,5 +1,7 @@
 package segurosxy.modelos.interfacesSeguroVehicular;
 
-public interface ISVSOAT extends ISeguroVehicular{
-    
+public interface ISVSOAT {
+
+    public String metodoSVSOAT();
+
 }

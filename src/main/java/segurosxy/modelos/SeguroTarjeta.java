@@ -2,6 +2,7 @@ package segurosxy.modelos;
 
 public class SeguroTarjeta extends Seguro {
 
+    protected String bancoTarjeta;
 
     public SeguroTarjeta(String bancoTarjeta)    {
 

@@ -3,7 +3,7 @@ package segurosxy.modelos;
 import java.util.Random;
 
 public abstract class Seguro {
-
+    //Comentarios
     protected Integer numero;
     protected Certificado certificado;
     protected Poliza poliza;
